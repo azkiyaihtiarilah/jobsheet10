@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Cinema08 {
 
     public static void main(String[] args) {
-        Scanner sc08 = new Scanner(System.in);
 
         String[][] audience = new String[4][2];
         audience[0][0] = "Amin";
