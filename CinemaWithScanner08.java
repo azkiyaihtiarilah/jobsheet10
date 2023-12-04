@@ -65,9 +65,9 @@ public class CinemaWithScanner08 {
                 for (int i = 0; i < audience.length; i++){
                     for (int j = 0; j < audience[i].length; j++){
                         if (audience[i][j] != null) {
-                            System.out.printf("Baris %s, kolom %d: %s\n", i+1, j+1, audience[i][j]);
+                            System.out.printf("Row %s, column %d: %s\n", i+1, j+1, audience[i][j]);
                         }else{
-                            System.out.printf("Baris %d, Kolom %d: *\n", i+1, j+1);
+                            System.out.printf("Row %d, column %d: *\n", i+1, j+1);
                         }
                     }
                 }
@@ -75,7 +75,7 @@ public class CinemaWithScanner08 {
             } else if (option == 3){
                 break;
             } else{
-                System.out.println("Menu Tidak Valid!");
+                System.out.println("Menu invalid!");
             }
         }
     } 
